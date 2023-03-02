@@ -89,7 +89,7 @@ h1{
 .hero_main{
     position: relative;
     width: 100%;
-    background-image:linear-gradient(to top right ,rgba(0,0,0,0.4),rgba(0,0,00.3)) ,url(pic1.jpg);
+    background-image:linear-gradient(to top right ,rgba(0,0,0,0.4),rgba(0,0,00.3)) ,url(pic9.jpg);
     background-size: cover;
     background-position: center;
     height: 120vh;
@@ -158,7 +158,7 @@ h1{
 
 .btn-more{
     border:2px solid #bb7900 ;
-    color: black;
+    color: bisque;
 }
 
 .btn-more:hover{
@@ -272,7 +272,7 @@ h1{
 
 .section_features{
     position: relative;
-    background-image:linear-gradient(to right bottom , rgba(182,213,111,0.6),rgba(40,180,133,0.6)), url(pic3.jpg);
+    background-image:linear-gradient(to right bottom , rgba(182,213,111,0.6),rgba(40,180,133,0.6)), url(pic13.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -563,3 +563,87 @@ footer p{
     text-align: center;
     margin-top: 60px;
 }
+
+
+
+.packages {
+    background: #eee;
+  }
+  
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    row-gap: 10%;
+    align-items: center;
+  }
+  
+  .packages .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #10221b;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    overflow: scroll;
+    height: 75%;
+    
+  }
+  
+  .packages .box-container .box:hover {
+    background: #69467a;
+  }
+  
+  .packages .box-container .box:hover .content > * {
+    color: #fff;
+  }
+  
+  .packages .box-container .box:hover .btn {
+    border-color: #fff;
+  }
+  
+  .packages .box-container .box:hover .btn:hover {
+    background: #fff;
+    color: #10221b;
+  }
+  
+  .packages .box-container .box .image {
+    height: 15rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+  }
+  
+  .packages .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .packages .box-container .box .content {
+    padding: 2rem;
+  }
+  
+  .packages .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #10221b;
+  }
+  
+  .packages .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+  
+  .packages .box-container .box .content .price {
+    font-size: 2rem;
+    color: #216691;
+  }
+
+  
